@@ -35,6 +35,8 @@ public class MeuResource {
       System.out.println(String.format("Id recebido via url: %d", id));
       Cliente cliente = new Cliente("Fulano", "000,000,000,00");
       return cliente;
+
+      
     }
 
 
